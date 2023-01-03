@@ -64,3 +64,4 @@ steps:
     repository: 'hello_app'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: 'hello_app:$(Build.BuildId)'
